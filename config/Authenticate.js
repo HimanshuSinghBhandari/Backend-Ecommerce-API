@@ -102,4 +102,4 @@ jwt.verify(token, process.env,SESSION_SECRET, async (err , decoded) => {
 })
 }
 
-module.exports = {ensureAuthenticated,authenticateUser , isTokenBlacklisted};
+module.exports = {ensureAuthenticated,authenticateUser , isTokenBlacklisted , blacklistedTokens};
