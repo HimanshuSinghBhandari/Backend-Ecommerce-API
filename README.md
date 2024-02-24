@@ -13,6 +13,20 @@ A Rest API for online E-commerce System with Node.js using SQL database (Postgre
   <img src="ecomm_db.png" alt="Database Schema">
 </div>
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+
+```
+PORT=
+DB_USER=''
+DB_PASSWORD=''
+DB_HOST=''
+DB_NAME=''
+DB_PORT=''
+```
+
 ## Routes available
 
 base url: `http://localhost:3000`
